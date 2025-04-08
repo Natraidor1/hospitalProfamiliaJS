@@ -4,8 +4,8 @@ import doctoresModel from "../models/Doctores.js";
 
 
 doctoresController.getDoctores = async (req, res) =>{
-    const doctores = doctoresModel.find();
-    res.json({doctores})
+    const Doctores = doctoresModel.find();
+    res.json({Doctores})
 };
 
 doctoresController.deleteDoctores = async (req,res)=>{
