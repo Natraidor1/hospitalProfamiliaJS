@@ -16,4 +16,15 @@ export const config = {
         EXPIRESIN: process.env.EXPIRESIN
     },
 
+    email:{
+        USER: process.env.EMAIL_USER,
+        PASS: process.env.EMAIL_PASS
+    },
+
+    adminCredentials:{
+
+        USEREMAIL: process.env.ADMIN_EMAIL,
+        USERPASS: process.env.ADMIN_PASSWORD
+    },
+
 };
