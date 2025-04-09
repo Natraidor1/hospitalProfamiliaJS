@@ -30,4 +30,4 @@ const doctoresSchema = new Schema({
 }
 );
 
-export default model("Doctores", doctoresSchema);
+export default model("doctores", doctoresSchema);

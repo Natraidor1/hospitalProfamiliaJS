@@ -4,7 +4,7 @@ import doctoresModel from "../models/Doctores.js";
 
 
 doctoresController.getDoctores = async (req, res) =>{
-    const Doctores = doctoresModel.find();
+    const Doctores = await doctoresModel.find();
     res.json({Doctores})
 };
 
